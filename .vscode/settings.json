@@ -1,0 +1,8 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "./models_hf/Cargo.toml"
+  ],
+  "cSpell.words": [
+    "safetensors"
+  ]
+}
