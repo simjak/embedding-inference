@@ -10,18 +10,13 @@ This repository contains a Rust workspace with three main components: embedding_
 
 ## Getting Started
 
-### Prerequisites
-
-* Rust (edition 2021)
-* Cargo
-
 ### Installation
 
 1. Clone the repository.
 2. Navigate to the root of the workspace.
 3. Build the workspace using Cargo:
 
-**   cargo build --release**
+```cargo build --release```
 
 ### Usage
 
@@ -30,14 +25,14 @@ This repository contains a Rust workspace with three main components: embedding_
 1. Navigate to embedding_generator.
 2. Run the application with a path to your CSV file:
 
-**   cargo run --release -- <path_to_your_csv>**
+``` cargo run --release -- <path_to_your_csv> ```
 
 #### Starting the Inference Server
 
 1. Navigate to inf_server.
 2. Run the server:
 
-**   cargo run --release**
+``` cargo run --release ```
 
 3. The server will start on 0.0.0.0:3000. Use the /similar endpoint to query for similar texts.
 
